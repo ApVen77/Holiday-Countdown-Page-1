@@ -16,36 +16,54 @@
 function countDown()
 {
     var today= new Date();
-    var eventDate= new Date("December 25, 2020 00:00:00");
+    var eventDate= new Date("December 25,2020 00:00:00");
 
-    var currentTime= today.getTime()
+    var currentTime= today.getTime();
     var eventTime= eventDate.getTime();
 
-    var remTime=eventTime - currentTime;
+    var remTime = eventTime - currentTime;
 
     var seconds= Math.floor(remTime/1000);
     var minutes= Math.floor(seconds/60);
     var hours= Math.floor(minutes/60);
     var days= Math.floor(hours/24);
 
+    hours = hours % 24;
+    minutes%= 60;
+    seconds%=60;
+
+    hours=(hours<10) ? "0" + hours : hours;
+    hours=(minutes<10) ? "0" + seconds : hours;
+    hours=(seconds<10) ? "0" + seconds : seconds;
+
+
+    document.getElementById("days").innerHTML =days;
+    document.getElementById("hours").innerHTML=hours;
+    document.getElementById("minutes").innerHTML=minutes;
+    document.getElementById("seconds").innerHTML=seconds;
+
+    setTimeout(countDown,1000);
+
 }
 
-
-var currentTime= new Date();
-console.log (currentTime);
-// This will get the date //
-var time= document.getElementById("time");
-// What do you want to do with it? //
-time.innerHTML= currentTime.toLocaleTimeString();
+    countDown();
 
 
-// This will get the time //
-var date= document= document.getElementById("date");
-date.innerHTML= currentTime.toLocaleDateString();
+// var currentTime= new Date();
+// console.log (currentTime);
+// // This will get the date //
+// var time= document.getElementById("time");
+// // What do you want to do with it? //
+// time.innerHTML= currentTime.toLocaleTimeString();
 
 
-// This will get the day of the week //
-var daysOfWeek= new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-var days= document.getElementById("week-day");
-days.innerHTML= daysOfWeek[currentTime.getDay()];
+// // This will get the time //
+// var date= document= document.getElementById("date");
+// date.innerHTML= currentTime.toLocaleDateString();
+
+
+// // This will get the day of the week //
+// var daysOfWeek= new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+// var days= document.getElementById("week-day");
+// days.innerHTML= daysOfWeek[currentTime.getDay()];
 
