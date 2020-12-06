@@ -33,8 +33,8 @@ function countDown()
     seconds%=60;
 
     hours=(hours<10) ? "0" + hours : hours;
-    hours=(minutes<10) ? "0" + seconds : hours;
-    hours=(seconds<10) ? "0" + seconds : seconds;
+    minutes=(minutes<10) ? "0" + minutes : minutes;
+    seconds=(seconds<10) ? "0" + seconds : seconds;
 
 
     document.getElementById("days").innerHTML =days;
@@ -67,3 +67,38 @@ function countDown()
 // var days= document.getElementById("week-day");
 // days.innerHTML= daysOfWeek[currentTime.getDay()];
 
+
+	
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WW         ___ __     ____      ___    ___   _   _          WW
+WW        |   V  \   / _  )    / __|  / __| | | | |         WW
+WW        | /\ /\ | ( (/ /_   | /    | /    \ \_| |         WW
+WW        |_||_||_|  \_____|  |_|    |_|     \__  |         WW
+WW                                              | |         WW
+WW                          _.-"""-.          _/ /          WW
+WW                        _/_______ `.       |__/           WW
+WW                       / _______ \  \                     WW
+WW                       \/,-. ,-.\/   \                    WW
+WW                       ()>=   =<()`._ \_                  WW
+WW                     ,-(.--(_)--.)`-.`(_)                 WW
+WW                   ,'  /.-'\_/`-.\   `.                   WW
+WW                  /   /    `-'    \    \                  WW
+WW                ,'    \           /     `.                WW
+WW               /     _ `.       ,'  _     \               WW
+WW              /     _/   `-._.-'    \_     \              WW
+WW             /_______|     -|O      |_______\             WW
+WW            {________}______|_______{________}            WW
+WW            ,'   _ \(_____[|_=]______)  / _   `.          WW
+WW           /    / `'--------------------`' \    \         WW
+WW           `---'  |_____________________|   `---'         WW
+WW                    |_____|_____|_____|                   WW
+WW                    |__|_____|_____|__|                   WW
+WW        _           |_____|_____|_____|  hjw              WW
+WW       | |           _                                    WW
+WW       | |          (_)        _                          WW
+WW  ___  | |__    ___  _   ___  | |_  ___  _    ____   ___  WW
+WW /  _| |  _ \  / __|| | / __| |  _||   V  \  / _  | / __| WW
+WW(  (_  | | \ || /   | | \__ \ | |  | /\ /\ |( (_| | \__ \ WW
+WW \___| |_| |_||_|   |_| |___/ |_|  |_||_||_| \____| |___/ WW
+WW                                                          WW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
