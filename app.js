@@ -72,7 +72,3 @@ function countDown()
 // var daysOfWeek= new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 // var days= document.getElementById("week-day");
 // days.innerHTML= daysOfWeek[currentTime.getDay()];
-
-
-	
-
