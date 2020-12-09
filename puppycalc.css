@@ -1,0 +1,19 @@
+body {
+    background-image: url(images/photo-1554226983-8a81adeda0c1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    margin-left: 700px;
+}
+
+h2 {
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+#dogage, .inputtext {
+    margin-left: 700px;
+}
