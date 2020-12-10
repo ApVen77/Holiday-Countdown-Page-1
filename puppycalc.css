@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 body {
     background-image: url(images/photo-1554226983-8a81adeda0c1.jpg);
     background-size: cover;
@@ -15,9 +17,10 @@ body {
 
 .head {
     float: right;
-    margin-right: 100px;
+    margin-right: 90px;
     color: black;
-    font-size: 25px;
+    font-size: 34px;
+    font-family: 'Nerko One', cursive;
 }
 
 .calc{
