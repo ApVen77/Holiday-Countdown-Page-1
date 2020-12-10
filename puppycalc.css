@@ -7,11 +7,6 @@ body {
     
 }
 
-
-
-
-
-
 *{
   cursor: url("images/animal-paw-print.png"), auto;
   margin: 0;
@@ -50,7 +45,7 @@ h1, h2, #dogage {
 }
 
 h1{ 
-  color: #606060;
+  color: #000000;
   font-weight: bold;
   font-size: 40px;
   margin: 30px auto;
@@ -80,6 +75,7 @@ h1{
   margin-top: 20px;
   background: #3598dc;
   transition: background 0.4s ease;
+  cursor: url("images/animal-paw-print.png"), auto;
 }
 
 .calculate:hover{ background: #3570dc; }
