@@ -5,15 +5,12 @@ body {
     
 }
 
-h1 {
-    margin-left: 700px;
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-h2 {
-    margin-left: 550px;
-    margin-top: 50px;
-}
-
-#dogage, .inputtext {
-    margin-left: 700px;
-}
+.
