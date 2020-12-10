@@ -3,11 +3,17 @@
 body {
     background-image: url(images/photo-1554226983-8a81adeda0c1.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    
 }
 
 
+
+
+
+
 *{
+  cursor: url("images/animal-paw-print.png"), auto;
   margin: 0;
   padding: 0;
   outline: none;
